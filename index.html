@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/index.css">
     <title>Miserere</title>
 </head>
 <body>
-    <header class="contenedor">
-        <input class="find" type="text" name="iglesia" id="iglesia" placeholder="buscar una Iglesia">
+    <header class="header contenedor">
+        <div class="box-title">
+            <i class='bx bxl-gmail box-title--icon'></i>
+            <h1 class="box-title--text">Miserere</h1>
+        </div>
     </header>
-    <main class="contenedor">
+    <main class="main contenedor">
+        <input class="find" type="text" name="iglesia" id="iglesia" placeholder="buscar una Iglesia">
         <div class="btn-box">
-            <button class="btn">Buscar Misa</button>
-            <button class="btn">Burcar Confesión</button>
+            <a href="iglesia.html"><button class="btn">Misa</button></a>
+            <a href="iglesia.html"><button class="btn">Confesión</button></a>
+            <!-- <button class="btn">Confesión</button> -->
         </div>
     </main>
     <footer class="footer">Derechos Reservados Miserere</footer>
