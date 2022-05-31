@@ -6,7 +6,7 @@
 }
 
 .main-iglesia {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 .iglesia {
     background-color: #fff;
@@ -17,4 +17,8 @@
 
 .iglesia:last-child {
     margin-bottom: 5rem;
+}
+
+.iglesia-tel {
+    display: block;
 }
